@@ -11,8 +11,7 @@ The best way to test is to run the tests in Browserstack using the following com
 
 mvn test "-Dconfig=browserstack_chrome61"
 
-BrowserStack LogIn Info
-
+BrowserStack LogIn Info: 
 username: ramrochanmts+test1@gmail.com
 password: Test123
 
