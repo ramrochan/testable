@@ -21,6 +21,6 @@ I have tests run there previosuly, you can take a look at that as well. This acc
 If you have your machine setup for running Java projects(Maven and Java) the you can run using the following commands:
 
 Assumptoins: All the webdrivers are added to the system path
-The test can be run across various browser using the command. It can be run in different browser by changing the arguments.
+The test can be run across various browser using the command below. It can be run in different browser by changing the arguments(to firefox).
 
 mvn test "-Dbrowser=chrome"
