@@ -21,7 +21,7 @@ public class HomePage extends BaseClass{
 	private WebElement logInButton;
 	
 	public void clickLogIn(){
-		logInButton.click();
+		driver.get("https://sso.zeachable.com/secure/136655/users/sign_in?clean_login=true&reset_purchase_session=1");
 	}
 	
 }

@@ -1,28 +1,26 @@
 # Takehome for QA engineer position.
 
-*IMPORTANT: Fork this repository!* 
 
-## Task
+Testing Framework Used: Selenium Webdriver , Cucumber
+Design Patter:Page object Model
+Language: Java
 
-We created a test school with a course that contains 4 lecture.
-Your task is to write tests where you enroll in a course and complete it.
-We've setup Rspec and Cucumber in this repo.
-Feel free to choose one that fits you the best, or use any other e2e testing framework.
+The best way to test is to run the tests in Browserstack using the following command
+
+mvn test "-Dconfig=browserstack_chrome61"
+
+BrowserStack LogIn Info
+
+username: ramrochanmts+test1@gmail.com
+password: Test123
+
+I have tests run there previosuly, you can take a look at that as well. This account is a trial account. If the tests need to be run in a different environment you can create a new file with necessary desired capabilities and give the arguments in the command.
 
 
-## Setup
 
-Install dependencies for Rspec or Cucumber if you choose to use one of them:
-```
-gem bundler install
-```
+If you have your machine setup for running Java projects(Maven and Java) the you can run using the following commands:
 
-```
-bundle install
-```
+Assumptoins: All the webdrivers are added to the system path
+The test can be run across various browser using the command. It can be run in different browser by changing the arguments.
 
-## Test school base url:
-
-* [takehome.zeachable.com](http://takehome.zeachable.com)
-
-Feel free to reach out if you have any questions!
+mvn test "-Dbrowser=chrome"
