@@ -2,7 +2,7 @@
 
 
 Testing Framework Used: Selenium Webdriver , Cucumber
-Design Patter:Page object Model
+Design Patter: Page object Model
 Language: Java
 
 The best way to test is to run the tests in Browserstack using the following command
