@@ -1,4 +1,4 @@
-# Takehome for QA engineer position. 
+# Blinds.com QA Engineer
 
 
 Testing Framework Used: Selenium Webdriver , Cucumber
@@ -7,7 +7,7 @@ Design Patter: Page object Model
 
 Language: Java
 
-The best way to test is to run the tests in Browserstack using the following command
+The best way to test is to run the tests is in Browserstack using the following command
 
 mvn test "-Dconfig=browserstack_chrome61"
 
