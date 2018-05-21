@@ -1,4 +1,4 @@
-# Blinds.com QA Engineer
+
 
 
 Testing Framework Used: Selenium Webdriver , Cucumber
